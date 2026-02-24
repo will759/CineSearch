@@ -1,5 +1,7 @@
 # 🎬 CineSearch — Movie Search App
 
+🔗 Demo online: https://cine-search-livid.vercel.app/
+
 **Stack:** React + TypeScript (frontend) · C# ASP.NET Core (backend)
 
 ---
@@ -7,7 +9,7 @@
 ## Estrutura do Projeto
 
 ```
-movie-app/
+
 ├── backend/                    ← C# ASP.NET Core API
 │   ├── Controllers/
 │   │   └── MoviesController.cs    GET /api/movies, GET /api/movies/{id}, GET /api/movies/genres
