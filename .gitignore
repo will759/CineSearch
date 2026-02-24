@@ -1,0 +1,20 @@
+# ─── SEGREDO - NUNCA subir no GitHub ─────────────────
+appsettings.Development.json
+.env
+.env.local
+.env.production
+
+# ─── .NET ────────────────────────────────────────────
+bin/
+obj/
+*.user
+.vs/
+
+# ─── Node / React ────────────────────────────────────
+node_modules/
+dist/
+.vite/
+
+# ─── Sistema ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
