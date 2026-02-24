@@ -1,6 +1,7 @@
 # 🎬 CineSearch — Movie Search App
 
 🔗 Demo online (Frontend): https://cine-search-livid.vercel.app/
+
 🔗 API online (Backend): https://cinesearch-production.up.railway.app/api/movies
 
 **Stack:** React + TypeScript (frontend) · C# ASP.NET Core (backend)
