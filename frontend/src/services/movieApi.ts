@@ -1,7 +1,7 @@
 import type { Movie, MovieFilterRequest, PagedResult } from '../types/movie';
 
 // Aponta para o backend C# 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://cinesearch-production.up.railway.app';
 
 function buildQueryString(params: Record<string, unknown>): string {
   const query = new URLSearchParams();
