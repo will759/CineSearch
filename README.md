@@ -29,6 +29,9 @@
         └── App.css                Tema cinematográfico dark
 ```
 
+
+Demo: https://cine-search-livid.vercel.app/
+
 ---
 
 ## Como rodar
