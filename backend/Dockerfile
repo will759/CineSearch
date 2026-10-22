@@ -4,8 +4,8 @@ WORKDIR /src
 
 COPY . .
 
-RUN dotnet restore CadastroN1.sln
-RUN dotnet publish Cadastro/Cadastro.csproj -c Release -o /app/publish
+RUN dotnet restore MovieSearchApi.csproj
+RUN dotnet publish MovieSearchApi.csproj -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
 WORKDIR /app
