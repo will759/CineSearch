@@ -1,7 +1,7 @@
 import type { Movie, MovieFilterRequest, PagedResult } from '../types/movie';
 
 // Aponta para o backend C# 
-const BASE_URL = 'https://cinesearch-production.up.railway.app';
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://cinesearch-o8rr.onrender.com';
 
 function buildQueryString(params: Record<string, unknown>): string {
   const query = new URLSearchParams();
